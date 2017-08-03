@@ -14,7 +14,7 @@ class LoggedInCookiePlugin extends BasePlugin
 
     function getVersion()
     {
-        return '0.1';
+        return '1.0.0';
     }
 
     function getDeveloper()
@@ -25,6 +25,11 @@ class LoggedInCookiePlugin extends BasePlugin
     function getDeveloperUrl()
     {
         return 'https://kevinsmith.io';
+    }
+
+    function getReleaseFeedUrl()
+    {
+        return 'https://raw.githubusercontent.com/kevinsmith/craft-logged-in-cookie/master/releases.json';
     }
 
     function init()
